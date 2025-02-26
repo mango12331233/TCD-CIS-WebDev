@@ -58,6 +58,18 @@ body {
   margin: 0;
 }
 
+main {
+  width: calc(70% - 1px); 
+  float: left; 
+  padding: 1rem;
+  border-right: 1px solid #ccc;
+}
+
+aside {
+  width: 30%; 
+  float: right; 
+  padding: 1rem; 
+}
 /*--------------------------------------------------------------
 # Navigation
 --------------------------------------------------------------*/
@@ -98,7 +110,13 @@ header {
 /*--------------------------------------------------------------
 # Footer Area
 --------------------------------------------------------------*/
-
+footer {
+  background-color: #333; 
+  text-align: center;
+  clear: both; 
+  padding: 10px; 
+  color: white;
+}
 
 /*--------------------------------------------------------------
 # Reusable Classes
