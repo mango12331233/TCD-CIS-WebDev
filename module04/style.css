@@ -74,24 +74,24 @@ aside {
 # Navigation
 --------------------------------------------------------------*/
 nav ul {
-  list-style-type: square; 
-  color: #3498db;
+  list-style-type: triangle; 
+  color: red;
 }
 
 nav a {
-  color: #2c3e50; 
+  color: blue; 
   text-decoration: none;
 }
 
 nav a:active {
-  color: #e74c3c; 
+  color: beige; 
 }
 
 nav a:hover {
-  color: #1abc9c;
+  color: green;
 
 nav a:visited {
-  color: #9b59b6;
+  color: black;
 }
 
 /*--------------------------------------------------------------
